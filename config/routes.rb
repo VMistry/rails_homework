@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  # Gets all the routes to each available page.
   get 'books/index'
 
   get 'books/show'
@@ -14,9 +14,10 @@ Rails.application.routes.draw do
 
   get 'books/update'
 
+
   get 'books', to: "books#index"
 
-  # get 'books/new', to: "books#new"
+  get 'books/new', to: "books#new"
 
   post 'books', to: "books#create"
 
