@@ -1,24 +1,29 @@
-# README
+# Controllers and Routes Lab
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Timings
 
-Things you may want to cover:
+45 - 90 Minutes
 
-* Ruby version
+## Summary
 
-* System dependencies
+Create a controller and seven RESTful routes for a book object.
 
-* Configuration
+The templates for the GET routes can simply contain dummy HTML.
 
-* Database creation
+The other routes should redirect to a suitable GET route.
 
-* Database initialization
+You may have to look up how to redirect in a controller.
 
-* How to run the test suite
+You may use the controller generator but not the scaffold generator.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Testing
 
-* Deployment instructions
+You should run the automated tests to check your progress:
 
-* ...
+```bash
+rspec spec
+```
+
+## Bonus task
+
+Research the ``resources`` method of creating restful routes in rails. See if you can implement it for the books resource
